@@ -1,0 +1,87 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.swiper {
+  padding: 20px 0;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #3b82f6;
+  background: rgba(255, 255, 255, 0.8);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1.2rem;
+}
+
+.swiper-pagination-bullet {
+  background: #9ca3af;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #3b82f6;
+}
+
+/* Dark mode styles */
+.dark .swiper-button-prev,
+.dark .swiper-button-next {
+  color: #93c5fd;
+  background: rgba(31, 41, 55, 0.8);
+}
+
+.dark .swiper-pagination-bullet {
+  background: #4b5563;
+}
+
+.dark .swiper-pagination-bullet-active {
+  background: #93c5fd;
+}
