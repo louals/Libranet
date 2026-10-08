@@ -1,12 +1,71 @@
-# React + Vite
+# Libranet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> A modern, lightweight web application designed to streamline library cataloging, book management, and patron workflows.
 
-Currently, two official plugins are available:
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![React](https://img.shields.io/badge/React-18.x-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?logo=vite)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Libranet** is a fast and responsive digital management system built for libraries, resource centers, and personal book collections. Designed with a content-centric UI, it simplifies core administrative tasks—such as tracking inventory, organizing authors, and managing borrow/return statuses—while delivering a seamless browsing experience for readers.
+
+---
+
+## Tech Stack
+
+- **Frontend Framework:** [React](https://react.dev/)
+- **Build Tool & Dev Server:** [Vite](https://vitejs.dev/)
+- **Styling:** CSS3 / Tailwind CSS *(adjust as needed)*
+- **Package Manager:** `npm`
+
+---
+
+
+
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+
+## Overview
+
+React + Vite template for library or content management.
+
+## Tech Stack
+
+React, Vite
+
+## Features
+
+- Content-management oriented layout
+- Fast HMR
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have the tools required for this stack installed (e.g. Python 3.10+, Node.js 18+, or Android Studio).
+
+### Installation & Usage
+
+```bash
+git clone https://github.com/<your-username>/Libranet.git
+cd Libranet
+npm install
+npm run dev
+```
+Open http://localhost:5173. Build for production with `npm run build`.
+
+## Contributing
+
+Contributions are welcome. Fork the repo, create a feature branch, and open a pull request.
+
+## License
+
+Distributed under the MIT License (change as needed).
+
+## Author
+
+**Louai**: [GitHub](https://github.com/<louals>)
